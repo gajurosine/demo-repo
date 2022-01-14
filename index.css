@@ -1,12 +1,37 @@
 div {
     border-radius: 20px;
-    text-align: center;
+    text-emphasis: none;
 }
 img {
     border: blue;
     font-display: center;
-    padding-bottom: 20px;
-}
-p {
+    padding-bottom: 0px;
     float: left;
+    width: 1999px;
+    height: 800px;
+}
+form{
+    float:right;
+    margin-top: 36px;
+    padding-bottom: 60px;
+    transform-origin: bottom;
+}
+a {
+    padding: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: verdana;
+    background-color: blue;
+    border-radius: 35px;
+    margin-bottom: 70px;
+    color: #000000;
+    background-color: skyblue;
+    padding-inline-start: 70px;
+}
+a:active{
+    color: springgreen;
+}
+h{
+    text-align: left;
+    float: inline-end;
 }
