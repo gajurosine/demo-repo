@@ -1,14 +1,15 @@
-div {
+.ail {
     border-radius: 20px;
-    text-emphasis: none;
+    background-color: slategrey;
 }
-img {
-    border: blue;
-    font-display: center;
-    padding-bottom: 0px;
-    float: left;
-    width: 1999px;
-    height: 800px;
+.background{
+    background-color: turquoise;
+}
+
+.hero{
+    height: 1000px;
+    width: 1000px;
+    background: url("./image/lakea.jpg");
 }
 form{
     float:right;
@@ -18,20 +19,42 @@ form{
 }
 a {
     padding: 20px;
-    float: right;
+    float: inline-start;
     font-size: 20px;
     font-family: verdana;
     background-color: blue;
     border-radius: 35px;
     margin-bottom: 70px;
-    color: #000000;
     background-color: skyblue;
     padding-inline-start: 70px;
 }
-a:active{
-    color: springgreen;
-}
-h{
+
+    .image{
+        background-image: url('./image/musium.jpg');
+        float:right;
+        font-size: 60px;
+        image-orientation: unset;
+        
+    }
+    .pic{
+        background:"background-image: url(image/pic.jpg)"; 
+        width: 300px;
+        height: 200px;
+    }
+h1{
     text-align: left;
     float: inline-end;
+}
+.visit{
+    border: blue;
+    font-display: center;
+    padding-bottom: 0px;
+    float: left;
+    width: 110em;
+    height: 80em;
+}
+.akagera{
+    width: 450px;
+    height: 200px;
+
 }
