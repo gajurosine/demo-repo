@@ -1,32 +1,32 @@
-.ail {
-    border-radius: 20px;
-    background-color: slategrey;
+.tell { 
+     border-radius: 20px; 
+     background-color: slategrey; 
+ } 
+ .color{
+     background-color: grey;
+ }
+ .background{ 
+     background-color: lavender; 
+    font-size: 20px; 
+    float: right; 
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+    font-family: Verdana;
+    transform-origin: right;
+ } 
+.page{
+    float: right;
 }
-.background{
-    background-color: turquoise;
-}
-
-.hero{
-    height: 1000px;
-    width: 1000px;
-    background: url("./image/lakea.jpg");
-}
-form{
-    float:right;
-    margin-top: 36px;
-    padding-bottom: 60px;
-    transform-origin: bottom;
-}
-a {
+.a{
     padding: 20px;
-    float: inline-start;
+    float: right;
     font-size: 20px;
-    font-family: verdana;
-    background-color: blue;
-    border-radius: 35px;
+    font-family:Verdana;
+    background-color:skyblue;
+    border-radius: 45px;
     margin-bottom: 70px;
-    background-color: skyblue;
-    padding-inline-start: 70px;
+    padding-inline-end: unset;
 }
 
     .image{
@@ -36,14 +36,9 @@ a {
         image-orientation: unset;
         
     }
-    .pic{
-        background:"background-image: url(image/pic.jpg)"; 
-        width: 300px;
-        height: 200px;
-    }
 h1{
     text-align: left;
-    float: inline-end;
+    float: unset;
 }
 .visit{
     border: blue;
@@ -53,8 +48,15 @@ h1{
     width: 110em;
     height: 80em;
 }
-.akagera{
-    width: 450px;
+.pic{
+    width: 300px;
     height: 200px;
+    background-image: url(image/kwita\ izina.jpg);
+    text-decoration: blue;
+    float: inline-start ;
 
+}
+.akagera{
+    width: 300px;
+    height: 200px;
 }

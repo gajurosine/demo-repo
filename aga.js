@@ -22,7 +22,7 @@ console.log(person);
     </a>
    <a href ="javascript:void(document.body.style.backgroundColor='red')">;
    
-    Click me to change the background color of body to red
+    // Click me to change the background color of body to red
     </a>
 
 
